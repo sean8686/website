@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Change the background color of the navbar to black and increase its size */
+.navbar {
+  background-color: #000000; /* Black color */
+  padding: 20px; /* Increase padding for larger navbar */
+  height: 80px; /* Set a fixed height for the navbar */
+  display: flex; /* Use flexbox for aligning items */
+  align-items: center; /* Vertically center items */
+}
+
+.main-container {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+
+body {
+    font-size: 30px; /* Adjust the value as needed */
+    
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* Style for the logo image */
+.navbar-brand img {
+  height: 60px; /* Adjust this value to fit your logo size */
+  margin-right: 20px; /* Space between logo and text */
+}
+
+/* Ensure the content is vertically centered in the navbar */
+.navbar .navbar-brand,
+.navbar .navbar-nav > li > a {
+  color: #FFFFFF; /* White color */
+  font-size: 18px; /* Larger font size */
+  font-weight: bold; /* Thicker font */
+  line-height: normal; /* Reset line height */
+}
+
+/* Change the color of the active page link and hovered links */
+.navbar .navbar-nav > li > a.active,
+.navbar .navbar-nav > li > a:hover {
+  color: #FFD700; /* Gold color for hover and active links */
+}
